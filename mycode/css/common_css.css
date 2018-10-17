@@ -1,0 +1,18 @@
+.layui-nav {
+    background-color:#fff!important;
+    box-shadow:0 2px 6px 0 rgba(0,0,0,0.4) ;
+
+}
+.layui-nav .layui-nav-item a{
+    color:black !important;
+    font-size: 17px;
+}
+#nav .nav-left{
+ margin:0 30px 0 30px;
+}
+#nav input{
+margin-left: 250px;
+    margin-right:30px;
+    height:25px;
+}
+
