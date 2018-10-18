@@ -1,0 +1,201 @@
+.layui-nav {
+    background-color:#fff!important;
+    box-shadow:0 2px 6px 0 rgba(0,0,0,0.4) ;
+}
+.layui-nav .layui-nav-item a{
+    color:black !important;
+    font-size: 17px;
+}
+#top{
+    position: relative;
+}
+#nav .nav-left{
+    margin:0 30px 0 30px;
+}
+#nav input{
+    margin-left: 250px;
+    margin-right:30px;
+    height:25px;
+}
+
+.second{
+    position: absolute;
+    top: 60px;
+    left: 80px;
+}
+.nav_son{
+    text-align: center;
+}
+.nav_son .layui-nav .layui-nav-item a{
+    width: 50px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 50px 0 0;
+    font-size: 14px;
+}
+.description .layui-textarea{
+    width: 250px;
+    height: 150px;
+}
+.per_form{
+    padding: 30px;
+    border: 1px solid #e2e2e2;
+    border-radius: 15px;
+    margin-top: 50px;
+    /*background:rgba(0,160,216,0.4);*/
+}
+.detail{
+    position: relative;
+    margin: 50px auto;
+    width: 800px;
+    height: 500px;
+    background-color: #eeeeee;
+}
+ .left,.right{
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+}
+.left{
+    left: 10px;
+}
+.right{
+    right: 10px;
+}
+.change_pic{
+    display: flex;
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+}
+.small_pic{
+    margin: 10px auto;
+    width: 500px;
+    height: 40px;
+}
+.each{
+    margin: 0 auto;
+}
+ .each_pic{
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid red;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+ .related_tags{
+     margin-top: 30px;
+     width: 500px;
+     height: 26px;
+ }
+ .each_tags{
+     float: left;
+     text-align: center;
+     line-height: 26px;
+     margin-right: 10px;
+     border: 1px solid gainsboro;
+     width: 54px;
+     height: 26px;
+     border-radius: 0 13px 0 13px ;
+ }
+.each_tags:hover{
+    border: 1px solid red;
+}
+.detail_content{
+    margin-top: 30px;
+    width: 600px;
+    font-size: 16px;
+}
+.detail_content p{
+    line-height: 40px;
+}
+.left_tags{
+    float: left;
+    margin: 3px 0 0 0;
+    color: #999;
+    font-size: 16px;
+}
+.right_tags{
+    float: right;
+    color: #555;
+    margin: 3px 0 0 0;
+    font-size: 16px;
+}
+.all_tip{
+    margin-top: 60px;
+    width: 800px;
+    height: 500px;
+}
+.all_tip .comment{
+    width: 600px;
+    height: 150px;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #eee;
+    margin-left: 15px;
+}
+.comment_info{
+    position: relative;
+    margin-top: 20px;
+    width: 600px;
+    height: 40px;
+}
+.user{
+    float: left;
+    width: 84px;
+    height: 41px;
+}
+.comment_stats{
+    float: right;
+    width: 80px;
+    height: 18px;
+
+}
+.user_info{
+    float: left;
+    margin-left: 10px;
+    width: 42px;
+    height: 40px;
+}
+.comment p{
+    width: 445px;
+    height: 27px;
+    line-height: 27px;
+}
+.content{
+    margin: 10px 0 0 40px;
+}
+.replies{
+    position: relative;
+    padding: 0 10px;
+    background-color: #f5f8fa;
+    line-height: 21px;
+}
+.reply{
+    margin: 10px 0 0 40px;
+    width: 425px;
+    height: 41px;
+    line-height: 41px;
+}
+.reply_content{
+    margin: 10px 0 0 10px;
+    display: inline;
+    color: #333;
+}
+.hello{
+    position:absolute;
+    left: 365px;
+    top: 100px;
+}
+/*.auto_play{*/
+    /*position:absolute;*/
+    /*left: 668px;*/
+    /*top: 274px;*/
+    /*border-radius: 50%;*/
+/*}*/
+.center_img{
+    position:absolute;
+    left: 660px;
+    top: 273px;
+}

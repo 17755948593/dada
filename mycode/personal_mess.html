@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人中心-我的信息</title>
+    <link rel="stylesheet" href="./layui/css/layui.css">
+    <link rel="stylesheet" href="./css/nav_top.css">
+</head>
+<body>
+
+<div id="top">
+    <ul class="layui-nav" lay-filter="" id="nav">
+        <li class="layui-nav-item nav-left logo"><img src="images/logo_nav.png" height="43" width="127"/></li>
+        <li class="layui-nav-item nav-left"><a href="">首页</a></li>
+        <li class="layui-nav-item nav-left"><a href="">搭圈儿</a></li>
+        <li class="layui-nav-item nav-left"><a href="">分享</a></li>
+        <li class="layui-nav-item" id="nav-input"><input type="text" placeholder="请输入搜索信息"></li>
+        <li class="layui-nav-item  layui-this nav-right">
+            <a href="javascript:;">个人中心</a>
+            <dl class="layui-nav-child"> <!-- 二级菜单 -->
+                <dd><a href="./personal_mess.html">我滴信息</a></dd>
+                <dd><a href="">我滴搭圈儿</a></dd>
+                <dd><a href="">我滴收藏</a></dd>
+            </dl>
+        </li>
+        <li class="layui-nav-item nav-right">
+            <a href=""><img src="//t.cn/RCzsdCq" class="layui-nav-img">我</a>
+            <dl class="layui-nav-child">
+                <dd><a href="javascript:;">修改信息</a></dd>
+                <dd><a href="javascript:;">退了</a></dd>
+            </dl>
+        </li>
+    </ul>
+</div>
+
+<div class="layui-container" >
+    <div style="margin-top: 50px;color:#00a0d8"><h1>小主的个人资料哦~</h1></div>
+</div>
+<div class="hello">
+
+    <img src="images/nihao.gif" height="44" width="76">
+</div>
+<div class="layui-container per_form" >
+
+<form class="layui-form" action="">
+    <div class="layui-form-item">
+        <label class="layui-form-label">头像</label>
+        <div class="layui-input-inline">
+            <input type="text" name="img" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">* 昵称</label>
+        <div class="layui-input-inline">
+            <input type="text" name="username" placeholder="" autocomplete="off" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">* 密码</label>
+        <div class="layui-input-inline">
+            <input type="passwd" name="passwd" required lay-verify="required" placeholder="请输入密码" autocomplete="off" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">性别</label>
+        <div class="layui-input-block">
+            <input type="radio" name="gender" value="1" title="男">
+            <input type="radio" name="gender" value="2" title="女" checked>
+        </div>
+    </div>
+    <div class="layui-form-item layui-form-text">
+        <label class="layui-form-label">描述</label>
+        <div class="layui-input-block description">
+            <textarea name="description" placeholder="请输入自我描述..." class="layui-textarea"></textarea>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn layui-btn-normal"  lay-filter="formDemo">保存</button>
+            <button type="button" class="layui-btn layui-btn-primary">修改</button>
+        </div>
+    </div>
+</form>
+</div>
+
+<!--<div class="layui-carousel auto_play" id="test1">-->
+    <!--<div carousel-item>-->
+        <div class="center_img">
+            <img src="images/lunbo2.jpg" style="width: 500px; height:300px">
+        </div>
+        <!--<div><img src="images/lunbo1.jpg" style="width: 500px; height:300px"></div>-->
+        <!--<div><img src="images/lunbo3.jpg" style="width: 500px; height:300px"></div>-->
+        <!--<div><img src="images/lunbo4.jpg" height="300" width="500"></div>-->
+        <!--<div><img src="images/lunbo5.jpg" height="300" width="500"></div>-->
+    <!--</div>-->
+<!--</div>-->
+
+<script src="./layui/layui.all.js"></script>
+
+<script>
+//layui.use('carousel', function(){
+//var carousel = layui.carousel;
+////建造实例
+//carousel.render({
+//elem: '#test1'
+//,width: '500px' //设置容器宽度
+//,arrow: 'always' //始终显示箭头
+////,anim: 'updown' //切换动画方式
+//});
+//});
+</script>
+</body>
+</html>
