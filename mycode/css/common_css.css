@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.nav_block{
+    z-index:2;
+}
 .layui-nav {
     background-color:#fff!important;
     box-shadow:0 2px 6px 0 rgba(0,0,0,0.4) ;
@@ -7,13 +14,53 @@
     color:black !important;
     font-size: 17px;
 }
-#nav .nav-left{
+.nav .nav-left{
  margin:0 30px 0 30px;
 }
-#nav input{
-margin-left: 250px;
-    margin-right:30px;
+.nav input{
+margin-left: 180px;
+    margin-right:20px;
     height:25px;
+}
+.top img{
+    width:100%;
+    height:400px;
+}
+.box1{
+    height:500px;
+    margin-bottom: 80px;
+    /*background-color: #00F7DE;*/
+}
+.box1-left,.box1-right{
+    margin-top:90px;
+}
+
+#link{
+    width:300px;
+    height:30px;
+    /*background-color: #00F7DE;*/
+    margin-left: 20px;
+    margin-bottom: 60px;
+}
+#link a{
+    font-size: 25px;
+}
+.box2{
+    margin-bottom: 50px;
+}
+.footer{
+    margin-top: 50px;
+    height:400px;
+    background-color: #eae6e6;
+    overflow:hidden;
+}
+.footer .layui-row{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.description p{
+    cursor: pointer;
+    margin: 10px 0 10px 0;
 }
 .bt{
    width: 150px;
@@ -61,7 +108,18 @@ margin-left: 250px;
     margin-bottom: 20px;
     height: 60px;
 }
-
+.white{
+    position:absolute;
+    left: 657px;
+    top: 175px;
+}
+.left_box{
+    position: relative;
+}
+.fon:hover{
+    font-size: 30px;
+    cursor: pointer;
+}
 #editor {
     margin-bottom: 20px;
 }
@@ -69,4 +127,3 @@ margin-left: 250px;
     font-size: 20px;
     color:  gray;
 }
-

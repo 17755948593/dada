@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我滴收藏</title>
+    <link rel="stylesheet" href="./layui/css/layui.css">
+    <link rel="stylesheet" href="./css/common_css.css">
+</head>
+<body>
+<div class="nav_block">
+    <ul class="layui-nav nav" lay-filter="" >
+        <li class="layui-nav-item nav-left logo"><img src="images/1.png" height="43" width="127"/></li>
+        <li class="layui-nav-item nav-left"><a href="./index.html">首页</a></li>
+        <li class="layui-nav-item nav-left"><a href="">搭圈儿</a></li>
+        <li class="layui-nav-item nav-left"><a href="">分享</a></li>
+        <li class="layui-nav-item nav-input"><input type="text" placeholder="请输入搜索信息"></li>
+
+        <li class="layui-nav-item nav-right">
+            <a href="javascript:;">个人中心</a>
+            <dl class="layui-nav-child"> <!-- 二级菜单 -->
+                <dd><a href="">我滴信息</a></dd>
+                <dd><a href="">我滴搭圈儿</a></dd>
+                <dd><a href="">我滴收藏</a></dd>
+            </dl>
+        </li>
+        <li class="layui-nav-item nav-right"><a href="">注册|登录</a></li>
+        <li class="layui-nav-item nav-right">
+            <a href=""><img src="//t.cn/RCzsdCq" class="layui-nav-img">我</a>
+            <dl class="layui-nav-child">
+                <dd><a href="javascript:;">修改信息</a></dd>
+                <dd><a href="javascript:;">退了</a></dd>
+            </dl>
+        </li>
+    </ul>
+</div>
+<h1 style="margin:30px 0 30px 0">我滴收藏:</h1>
+
+<div class="layui-container">
+    <div class="layui-row">
+        <div class="layui-col-md3">
+
+
+            <img src="images/4.jpg" height="330" width="250"/>
+            <div style="width:250px;margin:20px 0 20px 0">
+                <span>手腕好多了 今天恢复体育课 秋冬运动不要出太多汗 注意运动完了及时换衣服 别着凉哦😄</span>
+              <div>
+                  <div style="width:30px;height:30px;border-radius:50%;float:left;margin-right: 10px">
+                      <img src="//t.cn/RCzsdCq" class="layui-nav-img">
+                  </div>
+                  <span>用户名</span>
+
+                  <div style="float:right">
+                      <img src="images/dot.png" height="16" width="16">
+                      <span>123</span>
+                  </div>
+              </div>
+            </div>
+
+        </div>
+        <div class="layui-col-md3">
+            <img src="images/4.jpg" height="330" width="250"/>
+            <div style="width:250px;margin:20px 0 20px 0">
+            <span>手腕好多了 今天恢复体育课 秋冬运动不要出太多汗 注意运动完了及时换衣服 别着凉哦😄</span>
+                <div>
+                    <div style="width:30px;height:30px;border-radius:50%;float:left;margin-right: 10px">
+                        <img src="//t.cn/RCzsdCq" class="layui-nav-img">
+                    </div>
+                    <span>用户名</span>
+
+                    <div style="float:right">
+
+                        <img src="images/dot.png" height="16" width="16">
+                        <span>123</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="layui-col-md3">
+
+            <img src="images/4.jpg" height="330" width="250"/>
+            <div  style="width:250px;margin:20px 0 20px 0">
+                <span>手腕好多了 今天恢复体育课 秋冬运动不要出太多汗 注意运动完了及时换衣服 别着凉哦😄</span>
+                <div>
+                    <div style="width:30px;height:30px;border-radius:50%;float:left;margin-right: 10px">
+                        <img src="//t.cn/RCzsdCq" class="layui-nav-img">
+                    </div>
+                    <span>用户名</span>
+
+                    <div style="float:right">
+                        <img src="images/dot.png" height="16" width="16">
+                        <span>123</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="layui-col-md3">
+
+            <img src="images/4.jpg" height="330" width="250"/>
+            <div  style="width:250px;margin:20px 0 20px 0">
+            <span>手腕好多了 今天恢复体育课 秋冬运动不要出太多汗 注意运动完了及时换衣服 别着凉哦😄</span>
+                <div>
+                    <div style="width:30px;height:30px;border-radius:50%;float:left;margin-right: 10px">
+                        <img src="//t.cn/RCzsdCq" class="layui-nav-img">
+                    </div>
+                    <span>用户名</span>
+
+                    <div style="float:right">
+                        <img src="images/dot.png" height="16" width="16">
+                        <span>123</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="./layui/layui.all.js"></script>
+<script src="./js/Event.js"></script>
+<script>
+    var logo=document.querySelector(".logo");
+    var input=document.querySelector(".nav-input");
+    var nav_bar=document.querySelector(".layui-nav-bar");
+    logo.onmouseover=function(){
+        nav_bar.style.display="none";
+    };
+    logo.onmouseout=function(){
+        nav_bar.style.display="block";
+    };
+    input.onmouseover=function(){
+        nav_bar.style.display="none";
+    };
+    input.onmouseout=function(){
+        nav_bar.style.display="block";
+    };
+
+    //滚动条
+    EventUtil.addEvent(document,"scroll",function(){
+        var target=EventUtil.getTarget(event);
+        console.log(target);
+        console.log(target.scrollingElement.scrollTop);
+        console.log("页面被滚动");
+        if(target.scrollingElement.scrollTop>60){
+            document.querySelector(".nav_block").style.position="fixed";
+        }else{
+            document.querySelector(".nav_block").style.position="relative";
+        }
+    })
+
+</script>
+</body>
+</html>

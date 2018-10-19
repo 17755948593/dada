@@ -2,18 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>导航条</title>
+    <title>主页面</title>
     <link rel="stylesheet" href="./layui/css/layui.css">
     <link rel="stylesheet" href="./css/common_css.css">
+    <link rel="stylesheet" href="./css/animate.css">
 
 </head>
 <body>
-<ul class="layui-nav" lay-filter="" id="nav">
+
+<div class="nav_block">
+<ul class="layui-nav nav" lay-filter="" >
     <li class="layui-nav-item nav-left logo"><img src="images/1.png" height="43" width="127"/></li>
-    <li class="layui-nav-item nav-left"><a href="">首页</a></li>
+    <li class="layui-nav-item layui-this nav-left"><a href="">首页</a></li>
     <li class="layui-nav-item nav-left"><a href="">搭圈儿</a></li>
     <li class="layui-nav-item nav-left"><a href="">分享</a></li>
-    <li class="layui-nav-item" id="nav-input"><input type="text" placeholder="请输入搜索信息"></li>
+    <li class="layui-nav-item nav-input"><input type="text" placeholder="请输入搜索信息"></li>
+
     <li class="layui-nav-item nav-right">
         <a href="javascript:;">个人中心</a>
         <dl class="layui-nav-child"> <!-- 二级菜单 -->
@@ -22,6 +26,7 @@
             <dd><a href="">我滴收藏</a></dd>
         </dl>
     </li>
+    <li class="layui-nav-item nav-right"><a href="">注册|登录</a></li>
     <li class="layui-nav-item nav-right">
         <a href=""><img src="//t.cn/RCzsdCq" class="layui-nav-img">我</a>
         <dl class="layui-nav-child">
@@ -30,18 +35,156 @@
         </dl>
     </li>
 </ul>
+</div>
 
-<div class="layui-container">
+<div class="layui-fluid top">
+    <img src="images/10.jpg" >
+</div>
+
+<div class="white">
+    <img src="images/white.png" height="51" width="500">
+</div>
+
+    <div class="layui-container box1">
+    <div class="layui-row" style="overflow: hidden">
+        <div class="layui-col-md4 box1-left">
+           <h1>
+               “哒哒”圈儿，搭出不同色彩！
+           </h1>
+            <div class="left_box">
+
+                <div class="left_fir" style="margin-top: 25px;">
+                        <h2 class="fon">01 &nbsp;关注 Follow</h2>
+                    <hr>
+                        <div style="padding: 0 0 0 35px">点点滴滴，不再错过</div>
+                </div>
+
+                <div class="left_sec layui-col-lg-offset2" style="margin-top: 25px;">
+                        <h2 class="fon">02 &nbsp;发现 Explore</h2>
+                    <hr>
+                        <div style="padding: 0 0 0 35px">发现世界，分享生活</div>
+                </div>
+
+                <div class="left_thi" style="margin-top: 25px;">
+                        <h2 class="fon">03 &nbsp;附近 Nearby</h2>
+                    <hr>
+                        <div style="padding: 0 0 0 35px">更多分享，近在咫尺</div>
+                </div>
+
+                <div class="left_fou layui-col-lg-offset3" style="margin-top: 25px;">
+                        <h2 class="fon">04 &nbsp;更多 More</h2>
+                    <hr>
+                        <div style="padding: 0 0 0 35px">更多小众，应有尽有</div>
+                </div>
+            </div>
+        </div>
+        <div class="layui-col-md6 layui-col-lg-offset2 box1-right wow shake">
+            <img src="images/2.png" style="height:260px;width:500px">
+        </div>
+    </div>
+</div>
+<div id="link">
+<a href="login.php">拥有寄几个的搭圈儿:</a>
+</div>
+<div class="layui-container box2">
     <div class="layui-row">
+        <div class="layui-col-md4">
 
+            <img src="images/9.jpg" height="400" width="330">
+        </div>
+        <div class="layui-col-md4">
+            <img src="images/4.jpg" height="300" width="200">
+        </div>
+        <div class="layui-col-md4">
+            <img src="images/5.jpg" height="400" width="330">
+        </div>
+    </div>
+</div>
+
+<div class="layui-container box3">
+    <div class="layui-row">
+        <div class="layui-col-md4">
+
+            <img src="images/6.jpg" height="400" width="330">
+        </div>
+        <div class="layui-col-md4">
+
+        <img src="images/7.jpg" height="250" width="330">
+    </div>
+        <div class="layui-col-md4">
+
+            <img src="images/8.jpg" height="375" width="330">
+        </div>
+    </div>
+</div>
+
+<div class="layui-container box4">
+    <div class="layui-row">
+        <div class="layui-col-md6">
+        </div>
+        <div class="layui-col-md6">
+
+
+        </div>
     </div>
 </div>
 
 
+
+
+<div class="layui-fluid footer">
+
+    <div class="layui-row">
+        <div class="layui-col-md6">
+            <img src="images/1.png" height="43" width="127">
+        </div>
+
+        <div class="layui-col-md6 description">
+           <div class="layui-row">
+               <div class="layui-col-md4">
+                <h2>关于我们</h2>
+                   <p>与卿共享</p>
+                   <p>加入我们</p>
+               </div>
+               <div class="layui-col-md4">
+                <h2>内容相关</h2>
+                   <p>搭圈儿</p>
+                   <p>我们的穿搭攻略</p>
+               </div>
+               <div class="layui-col-md4">
+                <h2>协议条款</h2>
+                   <p>注册协议</p>
+                   <p>隐私协议</p>
+                   <p>侵权投诉指引</p>
+               </div>
+           </div>
+        </div>
+    </div>
+    <!--分隔线-->
+   <div style="width:100%;height:1px;background-color: black;margin-bottom: 30px">
+
+   </div>
+
+    <div>
+    <p>沪ICP备 13030189号 Copyright © 2014-2018 行吟信息科技（上海）有限公司 | 地址：上海市黄浦区马当路388号C座 | 电话：021-64224530 | 自营经营者营业执照 2018 沪公网安备 31010102002533号</p>
+    <p>沪网文〔2018〕4086-308号 | 网络文化经营许可证：沪网文[2018]4086-308号 | 增值电信业务经营许可证：沪B2-20150021 | 食品经营许可证：JY13101140093802 | 出版物经营许可证：新出发沪零字第M7553号</p>
+    <p>医疗器械经营许可证：沪嘉食药监械经营许20187006号 | 互联网药品信息服务资格证书：(沪)-经营性-2018-0011 | 违法不良信息举报电话：(027) 5931 3970 | 上海市互联网举报中心</p>
+    </div>
+
 <script src="./layui/layui.all.js"></script>
+<script src="./js/Event.js"></script>
+    <script src="./js/wow.min.js"></script>
+
+
+
 <script>
+    //动画：
+    new WOW().init();
+
+
+
 var logo=document.querySelector(".logo");
-var input=document.getElementById("nav-input");
+var input=document.querySelector(".nav-input");
 var nav_bar=document.querySelector(".layui-nav-bar");
 logo.onmouseover=function(){
     nav_bar.style.display="none";
@@ -55,6 +198,19 @@ input.onmouseover=function(){
 input.onmouseout=function(){
     nav_bar.style.display="block";
 };
+
+//滚动条
+EventUtil.addEvent(document,"scroll",function(){
+    var target=EventUtil.getTarget(event);
+    console.log(target);
+    console.log(target.scrollingElement.scrollTop);
+    console.log("页面被滚动");
+    if(target.scrollingElement.scrollTop>60){
+        document.querySelector(".nav_block").style.position="fixed";
+    }else{
+          document.querySelector(".nav_block").style.position="relative";
+    }
+})
 
 </script>
 </body>
