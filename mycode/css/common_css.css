@@ -1,130 +1,203 @@
-*{
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
 }
-.nav_block{
-    z-index:2;
+
+.nav_block {
+    top:0;
+    z-index: 2;
 }
+
 .layui-nav {
-    background-color:#fff!important;
-    box-shadow:0 2px 6px 0 rgba(0,0,0,0.4) ;
+    background-color: #fff !important;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.4);
 
 }
-.layui-nav .layui-nav-item a{
-    color:black !important;
+.layui-nav .layui-nav-item a {
+    color: black !important;
     font-size: 17px;
 }
-.nav .nav-left{
- margin:0 30px 0 30px;
+.nav .nav-left {
+    margin: 0 30px 0 30px;
 }
-.nav input{
-margin-left: 180px;
-    margin-right:20px;
-    height:25px;
+.nav input {
+    margin-left: 180px;
+    margin-right: 20px;
+    height: 25px;
 }
-.top img{
-    width:100%;
-    height:400px;
+.top img {
+    width: 100%;
+    height: 400px;
 }
-.box1{
-    height:500px;
-    margin-bottom: 80px;
+.box1 {
+    height: 500px;
+    margin-top: 30px;
+    margin-bottom: 100px;
     /*background-color: #00F7DE;*/
 }
-.box1-left,.box1-right{
-    margin-top:90px;
+.box1-left {
+    margin-top: 90px;
 }
 
-#link{
-    width:300px;
-    height:30px;
-    /*background-color: #00F7DE;*/
-    margin-left: 20px;
-    margin-bottom: 60px;
+.box1-right {
+    margin-top: 160px;
 }
-#link a{
-    font-size: 25px;
-}
+
+
 .box2{
-    margin-bottom: 50px;
+    position: relative;
+    width:1200px;
+    /*height:600px;*/
+    /*background-color: #5dafd1;*/
+    margin:auto;
+    height: auto;
 }
-.footer{
-    margin-top: 50px;
-    height:400px;
-    background-color: #eae6e6;
-    overflow:hidden;
+.box2_img{
+    display: inline-block;
+    width: 220px;
+    border:1px solid #ccc;
+    padding:9px;
+
 }
-.footer .layui-row{
+.box2_img img{
+    width: 220px;
+}
+
+
+.footer {
     margin-top: 50px;
+    height: 360px;
+    background-color: #333333;
+    overflow: hidden;
+}
+.footer .bottom {
+    margin-top: 41px;
     margin-bottom: 30px;
 }
-.description p{
+.description p {
     cursor: pointer;
     margin: 10px 0 10px 0;
 }
-.bt{
-   width: 150px;
+.bt {
+    width: 150px;
     height: 40px;
 }
-.layui-breadcrumb a{
+.layui-breadcrumb a {
     font-size: 20px;
-    color:#666 !important;
+    color: #666 !important;
 }
 .layui-breadcrumb a cite {
-    color:#00a1d6;
+    color: #00a1d6;
     font-style: normal;
 }
 /*.layui-col-md8{*/
-    /*!*width: 600px;*!*/
-    /*position: relative !important;*/
-    /*border: solid 1px gainsboro;*/
+/*!*width: 600px;*!*/
+/*position: relative !important;*/
+/*border: solid 1px gainsboro;*/
 /*}*/
-.layui-icon{
+.icon {
     border: solid 1px gainsboro;
     border-radius: 20px;
     width: 100%;
     height: 150px;
     background-color: gainsboro;
 }
-.pic_submit{
-    color:#99a2aa;
+.pic_submit {
+    color: #99a2aa;
     font-size: 25px;
     font-weight: 500;
     margin-left: 273px;
     margin-top: 84px;
 }
-
-.picture img{
+.picture img {
     margin-left: 319px;
     margin-top: 10px;
 }
-.layui-colla-title input{
+.layui-colla-title input {
     width: 500px;
     font-size: 30px;
     border: none;
 }
-
-.layui-colla-title{
+.layui-colla-title {
     margin-bottom: 20px;
     height: 60px;
 }
-.white{
-    position:absolute;
+.white {
+    position: absolute;
     left: 657px;
     top: 175px;
 }
-.left_box{
+.left_box {
     position: relative;
 }
-.fon:hover{
+.fon span:hover {
     font-size: 30px;
     cursor: pointer;
 }
 #editor {
     margin-bottom: 20px;
 }
-.top_title{
+.top_title {
     font-size: 20px;
-    color:  gray;
+    color: gray;
 }
+.index_comm {
+    position: absolute;
+    left: -44px;
+    top: 0;
+}
+.foot_wenzi{
+    margin-top: 60px;
+}
+.foot_wenzi .layui-row{
+    font-size: 10px;
+    margin-bottom: 10px;
+    color: #d5d5d5;
+}
+.back_top{
+    width:40px;
+    height:40px;
+    display: block;
+    position:fixed;
+    left: 1310px;
+    bottom: 10px;
+}
+.back_top img{
+    border-radius: 10px;
+}
+.life{
+    margin: 0px 530px 20px;;
+}
+.er{
+    margin-left: 100px;
+}
+video{
+    margin-top: 70px;
+
+    width:700px;
+    height:500px;
+}
+.father{
+    position: relative;
+}
+.world{
+    width:200px;
+    height:100px;
+    /*background-color: #5dafd1;*/
+    position: absolute;
+    right: 200px;
+    bottom: 248px;
+}
+.world h1{
+    font-weight:bolder ;
+    font-size: 40px;
+}
+.world p{
+    margin-top: 15px;
+    font-size: 16px;
+}
+.http{
+    color: #d5d5d5;
+}
+
 
