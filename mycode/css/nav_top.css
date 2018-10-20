@@ -124,13 +124,12 @@
     font-size: 16px;
 }
 .all_tip{
-    margin-top: 60px;
+    margin-top: 90px;
     width: 800px;
     height: 500px;
 }
 .all_tip .comment{
     width: 600px;
-    height: 150px;
     padding: 0 0 20px 0;
     border-bottom: 1px solid #eee;
     margin-left: 15px;
@@ -175,13 +174,18 @@
 .reply{
     margin: 10px 0 0 40px;
     width: 425px;
-    height: 41px;
     line-height: 41px;
+}
+.reply input{
+    padding: 0 10px;
+    width: 120px;
+    height: 41px;
+    background-color: #f5f8fa;
+    border-width: 0;
 }
 .reply_content{
     margin: 10px 0 0 10px;
     display: inline;
-    color: #333;
 }
 .hello{
     position:absolute;
@@ -198,4 +202,71 @@
     position:absolute;
     left: 660px;
     top: 273px;
+}
+/*´îÈ¦¶ù*/
+.daquan_cont{
+    margin-top: 25px;
+}
+.de_img{
+    width: 250px;
+    height: 330px;
+    border-radius: 5px;
+}
+.com_detail{
+    width: 250px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.com_detail_fir{
+    margin-top: 10px;
+    overflow: hidden;
+}
+.com_detail_sec{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+    float: left;
+}
+.com_detail_tir{
+    float: right;
+    margin-top: 5px;
+}
+/*ÆÀÂÛ¿ò*/
+.tips{
+    margin-top: 10px;
+}
+.fa_remark{
+    width: 800px;
+    margin-top: 60px;
+    display: none;
+}
+.fa_remark input{
+    border-radius: 20px;
+    padding: 0 10px;
+    width: 720px;
+    height: 100px;
+    background-color: #f5f8fa;
+    border-width: 0;
+}
+.warn{
+    width: 168px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 25px;
+    margin: 10px auto 0 auto;
+    padding: 0 10px;
+    background-color: #f5f8fa;
+    display: none;
+}
+.fa_huifu{
+    margin-top: 20px;
+}
+.fa_huifu input{
+    border-radius: 20px;
+    padding: 0 10px;
+    width: 556px;
+    height: 100px;
+    background-color: #f5f8fa;
+    border-width: 0;
 }
