@@ -9,12 +9,12 @@
 }
 
 .layui-nav {
-    background-color: #fff !important;
-    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.4);
+    background-color:#fff!important;
+    box-shadow:0 2px 6px 0 rgba(0,0,0,0.4) ;
 
 }
-.layui-nav .layui-nav-item a {
-    color: black !important;
+.layui-nav .layui-nav-item a{
+    color:black !important;
     font-size: 17px;
 }
 .nav .nav-left {
@@ -78,22 +78,22 @@
     cursor: pointer;
     margin: 10px 0 10px 0;
 }
-.bt {
-    width: 150px;
+.bt{
+   width: 150px;
     height: 40px;
 }
-.layui-breadcrumb a {
+.layui-breadcrumb a{
     font-size: 20px;
-    color: #666 !important;
+    color:#666 !important;
 }
 .layui-breadcrumb a cite {
-    color: #00a1d6;
+    color:#00a1d6;
     font-style: normal;
 }
 /*.layui-col-md8{*/
-/*!*width: 600px;*!*/
-/*position: relative !important;*/
-/*border: solid 1px gainsboro;*/
+    /*!*width: 600px;*!*/
+    /*position: relative !important;*/
+    /*border: solid 1px gainsboro;*/
 /*}*/
 .icon {
     border: solid 1px gainsboro;
@@ -102,23 +102,25 @@
     height: 150px;
     background-color: gainsboro;
 }
-.pic_submit {
-    color: #99a2aa;
+.pic_submit{
+    color:#99a2aa;
     font-size: 25px;
     font-weight: 500;
     margin-left: 273px;
     margin-top: 84px;
 }
-.picture img {
+
+#old{
     margin-left: 319px;
     margin-top: 10px;
 }
-.layui-colla-title input {
+.layui-colla-title input{
     width: 500px;
     font-size: 30px;
     border: none;
 }
-.layui-colla-title {
+
+.layui-colla-title{
     margin-bottom: 20px;
     height: 60px;
 }
@@ -137,14 +139,50 @@
 #editor {
     margin-bottom: 20px;
 }
-.top_title {
+.top_title{
     font-size: 20px;
-    color: gray;
+    color:  gray;
 }
 .index_comm {
     position: absolute;
     left: -44px;
     top: 0;
+}
+.login_one{
+    margin-left: -50px;
+}
+
+#back{
+    border:solid 1px ;
+    height: 400px;
+    background-image: url("../images/login.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+
+.layui-container{
+    margin-top: 50px;
+}
+.layui-col-md1{
+    font-size: 20px ;
+    color: #fff9ec;
+}
+.label_style{
+    color: white;
+}
+.layui-form-mid{
+    color: white!important;
+}
+
+.H{
+    color:red!important;
+}
+.uploadimg img{
+    height: 100px;
+    width: 177px;
+        margin-right: 5px;
+    margin-bottom: 5px;
 }
 .foot_wenzi{
     margin-top: 60px;
@@ -199,5 +237,4 @@ video{
 .http{
     color: #d5d5d5;
 }
-
 
